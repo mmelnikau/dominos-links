@@ -2,30 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Dominos Environments</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #f8f8f8; padding: 40px; }
-    ul { list-style: none; padding: 0; }
-    li { margin: 16px 0; font-size: 1.2em; }
-    .disabled { color: #aaa; text-decoration: line-through; }
-    a { color: #0366d6; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .status { padding: 2px 6px; border-radius: 4px; font-size: 0.9em; margin-left: 8px; }
-    .ok { background: #c2f5cb; color: #1a7f3c; }
-    .fail { background: #f5c2c2; color: #9e2222; }
-  </style>
+  <title>Dominos Links: co.uk & ie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Подключение Bulma через CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
-<body>
-  <h1>Dominos Links</h1>
-  <ul>
-    <li>Prod – <a href="https://www.dominos.co.uk/" target="_self" tabindex="-1">https://www.dominos.co.uk/</a>
-    </li>
-    <li>Preprod – <a href="https://qaweb.dominos.co.uk/" target="_self">https://qaweb.dominos.co.uk/</a>
-    </li>
-    <li>Test3 – <a href="https://testweb3.dominos.co.uk/" target="_self">https://testweb3.dominos.co.uk/</a>
-    </li>
-    <li>Sandbox – <a href="https://phoenixsandbox.dominos.co.uk/" target="_self">https://phoenixsandbox.dominos.co.uk/</a>
-    </li>
-  </ul>
+<body class="has-background-light">
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title has-text-centered mb-6">Dominos Links</h1>
+      <div class="columns is-variable is-6 is-multiline">
+        <div class="column is-12-mobile is-6-tablet">
+          <div class="box">
+            <h2 class="subtitle has-text-centered">co.uk</h2>
+            <ul>
+              <li>Prod – <a href="https://www.dominos.co.uk/" target="_self">https://www.dominos.co.uk/</a></li>
+              <li>Preprod – <a href="https://qaweb.dominos.co.uk/" target="_self">https://qaweb.dominos.co.uk/</a></li>
+              <li>Test3 – <a href="https://testweb3.dominos.co.uk/" target="_self">https://testweb3.dominos.co.uk/</a></li>
+              <li>Sandbox – <a href="https://phoenixsandbox.dominos.co.uk/" target="_self">https://phoenixsandbox.dominos.co.uk/</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="column is-12-mobile is-6-tablet">
+          <div class="box">
+            <h2 class="subtitle has-text-centered">ie</h2>
+            <ul>
+              <li>Prod – <a href="https://www.dominos.ie/" target="_self">https://www.dominos.ie/</a></li>
+              <li>Preprod – <a href="https://qaweb.dominos.ie/" target="_self">https://qaweb.dominos.ie/</a></li>
+              <li>Test3 – <a href="https://testweb3.dominos.ie/" target="_self">https://testweb3.dominos.ie/</a></li>
+              <li>Sandbox – <a href="https://phoenixsandbox.dominos.ie/" target="_self">https://phoenixsandbox.dominos.ie/</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
